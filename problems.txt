@@ -1,0 +1,6 @@
+# This file serves like a "complain book" and documents problems I had along the way and took me some time to resolve
+
+./data/whatsapp_train_data/DR1-FSAH0-SI614.CSV -> missing phonemes for the first 2 packets
+./data/whatsapp_train_data/DR2-MDMT0-SI572.CSV -> too many "
+
+Windows doesn't sort lexicographically :(

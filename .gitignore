@@ -2,3 +2,9 @@
 
 .ipynd_checkpoints/*
 .ipynb_checkpoints/
+
+# Ignore data folder as it relatively large
+
+data/*
+
+impl_test.py
