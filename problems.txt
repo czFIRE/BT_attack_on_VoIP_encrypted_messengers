@@ -4,3 +4,5 @@
 ./data/whatsapp_train_data/DR2-MDMT0-SI572.CSV -> too many "
 
 Windows doesn't sort lexicographically :(
+
+pandas is broken with categorical list like objects as they require objects to be the same length.
