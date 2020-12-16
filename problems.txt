@@ -8,3 +8,5 @@ Windows doesn't sort lexicographically :(
 pandas is broken with categorical list like objects as they require objects to be the same length.
 
 yet again problems with cathegorical values => sklearn doesn't not of which type is the category
+
+16GB of RAM are really not enough, trees even asked for 54GB
