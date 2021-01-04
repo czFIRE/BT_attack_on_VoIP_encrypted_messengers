@@ -10,3 +10,11 @@ pandas is broken with categorical list like objects as they require objects to b
 yet again problems with cathegorical values => sklearn doesn't not of which type is the category
 
 16GB of RAM are really not enough, trees even asked for 54GB
+
+How to connect to remote jupyter on Aura:
+in one terminal:
+	ssh -L 8888:aura.fi.muni.cz:8888 xlogin@aisa.fi.muni.cz
+in other: 
+	ssh -J xlogin@aisa.fi.muni.cz xlogin@aura.fi.muni.cz:8888
+	cd ./thesis
+	python3 -m notebook --no-browser --ip 0.0.0.0 (or your IP)

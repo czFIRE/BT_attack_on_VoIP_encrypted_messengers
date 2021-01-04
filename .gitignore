@@ -1,6 +1,6 @@
 # Ignore checkpoints for jupyter
 
-.ipynd_checkpoints/*
+./notebooks/ipynb_checkpoints/
 .ipynb_checkpoints/
 
 # Ignore data folder as it relatively large
