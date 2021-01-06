@@ -18,3 +18,5 @@ in other:
 	ssh -J xlogin@aisa.fi.muni.cz xlogin@aura.fi.muni.cz
 	cd ./thesis
 	python3 -m notebook --no-browser --ip 0.0.0.0 (or your IP)
+
+Sklearn is kinda dumb as most of the classifiers can only use 1 thread at the same time
