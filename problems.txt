@@ -20,3 +20,6 @@ in other:
 	python3 -m notebook --no-browser --ip 0.0.0.0 (or your IP)
 
 Sklearn is kinda dumb as most of the classifiers can only use 1 thread at the same time
+
+TensorFlow and Keras can't run on Aura, because Aura doesn't support AVX instructions
+Aisa kills processes that use more than half of it's RAM
