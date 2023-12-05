@@ -13,11 +13,13 @@ yet again problems with cathegorical values => sklearn doesn't not of which type
 
 How to connect to remote jupyter on Aura:
 in one terminal:
-	ssh -L LOCAL:PORT:aura.fi.muni.cz:REMOTE_PORT xlogin@aisa.fi.muni.cz
+	ssh -L LOCAL_PORT:aura.fi.muni.cz:REMOTE_PORT xlogin@aisa.fi.muni.cz
 in other: 
 	ssh -J xlogin@aisa.fi.muni.cz xlogin@aura.fi.muni.cz
 	cd ./thesis
-	python3 -m notebook --no-browser --ip 0.0.0.0 (or your IP)
+	python3 -m notebook --no-browser --ip 0.0.0.0 (or your IP) --port=8888
+        or
+        jupyter lab --no-browser --ip 0.0.0.0 --port=8888
 
 Sklearn is kinda dumb as most of the classifiers can only use 1 thread at the same time
 
